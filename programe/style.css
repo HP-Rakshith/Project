@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 68vh;
+    overflow: hidden;
+    background-image: url(images/program.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+
+.container{
+    height: 19vh;
+    width: 95vw;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo img{
+    height: 17vh;
+}
+
+.navbar{
+    position: relative;
+}
+
+
+.navbar a{
+   margin-left: 1rem;
+   font-size: 1.4rem;
+   text-decoration: none;
+   color: white;
+}
+
+.nav-button{
+    display: flex;
+    gap: 1rem;
+}
+
+.container button{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+
+}
+
+.container i{
+    display: none;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+
+.dropdownmenu{
+    display: none;
+    position: absolute;
+    right: 5%;
+    padding-top: 1rem;
+}
+
+.dropdownmenu.open{
+    display: block;
+}
+    
+.dropdownmenu a{
+   font-size: 1.1rem;
+   text-decoration: none;
+   color: white;
+}
+
+.dropdownmenu li{
+    list-style: none;
+    padding-bottom: 2px;
+} 
+
+
+.header-text{
+    position: relative;
+    top: 43%;
+    margin: auto;
+    height: 20vh ;
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+}
+
+.header-text h2{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* section */
+
+section{
+    position: relative;
+}
+
+.section-container{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.section-card{
+    margin-bottom: 6rem;
+}
+
+.section-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.section-img{
+    width: 60%;
+    height: 54vh;
+    background-image: url(images/ser.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size:cover;
+}
+
+.section-img img{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    left: 13%;
+}
+
+.section-text{
+    width: 45%;
+}
+.section-text h2{
+font-size: 2.5rem;
+padding: 1rem 0;
+background-image: url(images/ser.png);
+background-repeat: no-repeat;
+background-position: left bottom;
+background-size:9rem;
+}
+.section-text p{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+}
+
+.section-text button{
+    padding: 15px;
+    font-size: 1.5rem;
+    font-family: 400;
+    border-radius: 1.8rem;
+    border: none;
+    color: white;
+   background-color: orange
+}
+
+/* footer  */
+
+footer{
+    padding-top: 10%;
+    }
+    
+    .footer-container{
+        width: 100%;
+        background-image: url(images/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: right ;
+        background-size: cover;
+    }
+    .footer-info{
+        display: flex;
+        justify-content: space-between;
+        padding-block: 5rem ;
+        padding-inline: 2rem;
+    }
+    
+    .footer-info h3{
+        font-size: 2rem;
+        font-weight: 400;
+        color: orange;
+        padding-bottom: 2rem;
+    }
+    
+    .footer-info p{
+        font-size: 1.3rem;
+        color: white;
+        padding-bottom: 1.5rem;
+    }
+        
+    .footer-info a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer-c{
+        color: white;
+    }
+    
+    .footer-c p{
+        font-size: 1.5rem;
+        padding-left: 6rem;
+        padding-bottom: 1rem;
+    }

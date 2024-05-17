@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpagestyle.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Ration KIt</title>
+    <style>
+        .header{
+            background-image: url(images/cont-1.jpg);
+            margin-bottom: 6vh;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="header">
+        
+        <div class="container">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About US</a>
+                <a href="#">Program</a>
+                <a href="#">Gallery</a>
+                <a href="#">Awards</a>
+                <a href="#">Success</a>
+                <a href="#">Contact US</a>
+            </nav>
+
+            <div class="nav-button">
+
+                <button type="button">Donate</button>
+
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <ul class="dropdownmenu">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">About US</a> </li>
+            <li> <a href="#">Program</a> </li>
+            <li> <a href="#">Gallery</a> </li>
+            <li> <a href="#">Awards</a> </li>
+            <li> <a href="#">Success</a> </li>
+            <li> <a href="#">Contact US</a> </li>
+        </ul>
+
+        <div class="header-text">
+            <h2>Ration Kit</h2>
+        </div>
+
+    </div>
+
+    
+    <section>
+        <div class="info">
+            <h2>Reducing hunger deaths involves a multifaceted approach</h2>
+
+            <h3> Food Distribution Programs</h3>
+            <p>Implement and support programs that provide subsidized or free food to those in need, like your NGO’s ration kit distribution.</p>
+                
+            <h3>Economic Empowerment</h3>
+            <p>Address the root causes of poverty by promoting education, skill development, and creating job opportunities to empower individuals economically.</p>
+
+            <h3>Agricultural Development</h3>
+            <p> Invest in sustainable agricultural practices, providing farmers with resources, technology, and knowledge to improve crop yields and income.</p>
+
+            <h3>Government Policies</h3>
+            <p>Advocate for and support policies that address food security, poverty alleviation, and social safety nets to ensure a comprehensive approach.</p>
+
+            <h3>Healthcare Services</h3>
+            <p>Improve access to healthcare, as malnutrition is often linked to health issues. Regular health check-ups and nutritional support can make a significant impact.</p>
+
+            <h3>Education on Nutrition</h3>
+            <p> Raise awareness about proper nutrition and its importance, especially among vulnerable communities. Education can empower people to make informed choices.</p>
+
+            <h3> Community Engagement</h3>
+            <p>Involve local communities in designing and implementing solutions. Community-driven initiatives tend to be more sustainable and effective.</p>
+
+            <h3>Emergency Response</h3>
+            <p>Develop and implement efficient systems for responding to food crises and emergencies promptly.</p>
+
+             
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer-container">
+           
+            <div class="footer-info">
+                <div>
+                    <h3>About US</h3>
+                    <p>INFO</p>
+                </div>
+    
+                <div>
+                    <h3>Main Links</h3>
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Programs</a></p>
+                    <p><a href="#">Gallery</a></p>
+                    <p><a href="#">Volunteer</a></p>
+                    <p><a href="#">Contact US</a></p>
+                </div>
+    
+                <div>
+                    <h3>Quick Links</h3>
+                    <p><a href="#">Child Education</a></p>
+                    <p><a href="#">Cancer Treatment</a></p>
+                    <p><a href="#">Environmental Protection</a></p>
+                    <p><a href="#">women Empowerment</a></p>
+                    <p><a href="#">Ration kit Distribution</a></p>
+                    <p><a href="#">Animal Protection</a></p>
+                </div>
+                
+                <div>
+                    <h3>Contact US</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>1/260 B ,Natesan street, Vandalur, Chennai: 600048</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@indianwelfarefoundation.org</p>
+                    <p><i class="fa-solid fa-phone"></i> 9791173137 ,9894159595</p>
+    
+                </div>
+    
+            </div>
+    
+            <div class="footer-c">
+                <p><i class="fa-solid fa-copyright"></i>Indian Welfare Foundation All Rights Reserved.Designed and Developed By MRV Technology Pvt Ltd</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        const toggle_btn=document.querySelector('.toggle_btn')
+        const toggle_icon=document.querySelector('.toggle_btn i')
+        const dropDownMenu=document.querySelector('.dropdownmenu')
+    
+        toggle_btn.onclick=function(){
+            dropDownMenu.classList.toggle('open')
+            const isopen=dropDownMenu.classList.contains('open')
+    
+            toggle_icon.classList= isopen ? 'fa-solid fa-xmark':'fa-solid fa-bars'
+        }
+    
+    </script>
+</body>

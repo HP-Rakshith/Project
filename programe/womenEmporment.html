@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="subpagestyle.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <title>Women Empowerment</title>
+
+    <style>
+        .header{
+            background-image: url(images/Women-empowerment1.jpeg);
+            margin-bottom: 5vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        
+        <div class="container">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#">About US</a>
+                <a href="#">Program</a>
+                <a href="#">Gallery</a>
+                <a href="#">Awards</a>
+                <a href="#">Success</a>
+                <a href="#">Contact US</a>
+            </nav>
+
+            <div class="nav-button">
+
+                <button type="button">Donate</button>
+
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <ul class="dropdownmenu">
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">About US</a> </li>
+            <li> <a href="#">Program</a> </li>
+            <li> <a href="#">Gallery</a> </li>
+            <li> <a href="#">Awards</a> </li>
+            <li> <a href="#">Success</a> </li>
+            <li> <a href="#">Contact US</a> </li>
+        </ul>
+
+        <div class="header-text">
+            <h2>Women Empowerment</h2>
+        </div>
+
+    </div>
+
+    <section>
+        <div class="info">
+            <h2>Women Empowerment</h2>
+
+            <p>Women empowerment in India is a complex and evolving narrative that reflects the dynamic interplay of cultural, social, and economic factors. Over the years, there has been notable progress in challenging traditional gender norms and providing avenues for women to assert their rights and capabilities. Educational initiatives, such as campaigns to promote girl child education and increasing literacy rates among women, have contributed to a gradual shift in societal attitudes. Economic empowerment initiatives, ranging from women’s entrepreneurship programs to skill development opportunities, have opened doors for financial independence. Legal reforms addressing issues like dowry, domestic violence, and workplace harassment signify a commitment to securing women’s rights. Despite these advancements, challenges persist, including gender disparities in rural areas, a lingering gender wage gap, and underrepresentation of women in higher political echelons. Ongoing efforts by both government and non-governmental organizations, coupled with a changing cultural landscape, emphasize the need for a holistic approach to women empowerment in India—one that encompasses education, economic opportunities, legal frameworks, and a continual challenge to ingrained social norms. As India progresses, fostering an environment that values and supports the full participation of women in all facets of society remains a critical goal for achieving true gender equality.</p>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer-container">
+           
+            <div class="footer-info">
+                <div>
+                    <h3>About US</h3>
+                    <p>INFO</p>
+                </div>
+    
+                <div>
+                    <h3>Main Links</h3>
+                    <p><a href="#">Home</a></p>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Programs</a></p>
+                    <p><a href="#">Gallery</a></p>
+                    <p><a href="#">Volunteer</a></p>
+                    <p><a href="#">Contact US</a></p>
+                </div>
+    
+                <div>
+                    <h3>Quick Links</h3>
+                    <p><a href="#">Child Education</a></p>
+                    <p><a href="#">Cancer Treatment</a></p>
+                    <p><a href="#">Environmental Protection</a></p>
+                    <p><a href="#">women Empowerment</a></p>
+                    <p><a href="#">Ration kit Distribution</a></p>
+                    <p><a href="#">Animal Protection</a></p>
+                </div>
+                
+                <div>
+                    <h3>Contact US</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>1/260 B ,Natesan street, Vandalur, Chennai: 600048</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@indianwelfarefoundation.org</p>
+                    <p><i class="fa-solid fa-phone"></i> 9791173137 ,9894159595</p>
+    
+                </div>
+    
+            </div>
+    
+            <div class="footer-c">
+                <p><i class="fa-solid fa-copyright"></i>Indian Welfare Foundation All Rights Reserved.Designed and Developed By MRV Technology Pvt Ltd</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        const toggle_btn=document.querySelector('.toggle_btn')
+        const toggle_icon=document.querySelector('.toggle_btn i')
+        const dropDownMenu=document.querySelector('.dropdownmenu')
+    
+        toggle_btn.onclick=function(){
+            dropDownMenu.classList.toggle('open')
+            const isopen=dropDownMenu.classList.contains('open')
+    
+            toggle_icon.classList= isopen ? 'fa-solid fa-xmark':'fa-solid fa-bars'
+        }
+    
+    </script>
+
+</body>

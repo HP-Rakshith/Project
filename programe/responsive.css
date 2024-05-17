@@ -1,0 +1,53 @@
+@media (max-width:1040px) {
+    
+    .container i{
+        display: block;
+        font-size: 2.5rem;
+        color: whitesmoke;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+}
+
+@media (max-width:600px) {
+    
+    .header-text{
+        top: 50%;
+        height: 15vh; 
+    }
+
+    .header-text h2{
+        font-size: 2.5rem;
+    }
+
+    .dropdownmenu li{
+        padding-bottom:7px;
+    } 
+
+    .section-card{
+        flex-direction: column;
+    }
+  
+    .section-img{
+        width: 100%;
+    }
+
+    .section-text{
+        width: 95%;
+        margin: auto;
+    }
+    .footer-info{
+        flex-direction: column;
+        padding-inline: 3rem;
+    }
+
+    .footer-c p{
+        font-size: 1rem;
+        padding-left: 2rem;
+        padding-inline: 3rem;
+    }
+
+}
